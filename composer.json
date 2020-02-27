@@ -1,5 +1,5 @@
 {
-    "name": "ryanwhitney/asset-folder",
+    "name": "ryanwhitney/asset-folder-field",
     "description": "A dropdown field that lets you select an asset folder.",
     "type": "craft-plugin",
     "version": "1.0.0",
