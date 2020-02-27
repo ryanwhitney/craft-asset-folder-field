@@ -1,3 +1,5 @@
+![Plugin Icon: A folder with a dropdown arrow on a blue background.](./src/icon.svg) 
+
 # Asset Folder Field plugin for Craft CMS 3.x
 
 A dropdown field that lets you select from folders in the Assets section of a Craft CMS site.
