@@ -11,6 +11,8 @@
         "asset folder field"
     ],
     "support": {
+        "docs": "https://github.com/ryanwhitney/craft-asset-folder-field/blob/master/README.md",
+        "issues": "https://github.com/ryanwhitney/craft-asset-folder-field/issues"
     },
     "license": "MIT",
     "authors": [
@@ -39,6 +41,7 @@
         "schemaVersion": "1.1.1",
         "hasCpSettings": false,
         "hasCpSection": false,
+        "changelogUrl": "https://github.com/ryanwhitney/craft-asset-folder-field/blob/master/CHANGELOG.md",
         "class": "ryanwhitney\\assetfolderfield\\AssetFolderField"
     }
 }
