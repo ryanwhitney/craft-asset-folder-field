@@ -48,22 +48,6 @@ class AssetFolderFieldType extends PlainText implements PreviewableFieldInterfac
     // Public Methods
     // =========================================================================
 
- 
-
-    /**
-     * @return string
-     */
-    public function getSettingsHtml()
-    {
-        // Render the settings template
-        return Craft::$app->getView()->renderTemplate(
-            'asset-folder-field/_components/fields/_settings',
-            [
-                'field' => $this,
-            ]
-        );
-    }
-
 
     /**
      * @param mixed $value
