@@ -1,0 +1,44 @@
+{
+    "name": "ryanwhitney/asset-folder",
+    "description": "A dropdown field that lets you select an asset folder.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "asset folder field"
+    ],
+    "support": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Whitney",
+            "homepage": "http://rw.is"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "ryanwhitney\\assetfolderfield\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Asset Folder Field",
+        "handle": "asset-folder-field",
+        "schemaVersion": "1.1.1",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "ryanwhitney\\assetfolderfield\\AssetFolderField"
+    }
+}
