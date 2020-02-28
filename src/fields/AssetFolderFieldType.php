@@ -30,7 +30,6 @@ class AssetFolderFieldType extends PlainText implements PreviewableFieldInterfac
     public $mode = 'plain';
     public $modeOverride;
 
-    private $_modes;
 
     // Static Methods
     // =========================================================================
@@ -47,6 +46,18 @@ class AssetFolderFieldType extends PlainText implements PreviewableFieldInterfac
 
     // Public Methods
     // =========================================================================
+
+    /**
+     * @return string
+     */
+    public function getSettingsHtml()
+    {
+        // Render an empty settings template, to override the default plaintext version
+        return Craft::$app->getView()->renderTemplate(
+            'asset-folder-field/_components/fields/_settings',
+            []
+        );
+    }
 
 
     /**
