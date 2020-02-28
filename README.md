@@ -61,7 +61,7 @@ This plugin is distributed free of charge under the MIT License. The author is n
 
 ## Special Thanks 
 
-This plugin was made with the help of assets and code found within the CraftCMS community. These folks are **not** affiliated with this plugin in any way, though I greatly appreciate their contributions to the community! 
+This plugin was made with the help of assets and code found within the CraftCMS community. These folks are **not** affiliated with this plugin in any way, though I greatly appreciate their contributions to the community.
 
 Thanks to [@mmikkel](https://github.com/mmikkel/IncognitoField-Craft3), whose [IncognitoField](https://github.com/mmikkel/IncognitoField-Craft3) plugin was heavily referenced and used as a general framework when using this plugin. 🎉
 
